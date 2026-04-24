@@ -1,3 +1,6 @@
+<img width="2400" height="416" alt="OADG109A_FullKeyboard_Layout" src="https://github.com/user-attachments/assets/1dbfcc45-b3c9-43d8-bd97-07da28033b94" />
+
+
 ## :: Overview ::
 
 This is a custom layout definition file for [Onboard](https://github.com/onboard-osk/onboard), the on-screen keyboard.
@@ -69,23 +72,18 @@ The author’s test environment is as follows. It is a physical machine, not a v
 (Unless this world is a simulator...)
 This is the result of the `neofetch` command.
 
-OS: Linux Mint 22.3 x86_64
-Host: Surface Go 1
-Kernel: 6.17.0-19-generic
-Uptime: 7 days, 27 mins
-Packages: 2143 (dpkg)
-Shell: bash 5.2.21
-Resolution: 2400x1600
-DE: Cinnamon 6.6.7
-WM: Mutter (Muffin)
-WM Theme: Mint-Y-Dark-Red (Mint-Y)
-Theme: Mint-Y-Dark-Red [GTK2/3]
-Icons: Mint-Y-Red [GTK2/3]
-Terminal: gnome-terminal
-CPU: Intel Pentium 4415Y (4) @ 1.600GHz
-GPU: Intel HD Graphics 615
-Memory: 7282MiB / 7818MiB
-
+    OS: Linux Mint 22.3 x86_64
+    Kernel: 6.17.0-19-generic
+    Shell: bash 5.2.21
+    Resolution: 2400x1600
+    DE: Cinnamon 6.6.7
+    WM: Mutter (Muffin)
+    WM Theme: Mint-Y-Dark-Red (Mint-Y)
+    Theme: Mint-Y-Dark-Red [GTK2/3]
+    Icons: Mint-Y-Red [GTK2/3]
+    Terminal: gnome-terminal
+    CPU: Intel Pentium 4415Y (4) @ 1.600GHz
+    GPU: Intel HD Graphics 615
 
 
 ## :: References ::
