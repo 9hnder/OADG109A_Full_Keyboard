@@ -1,23 +1,23 @@
-## :: 概要 ::
+## :: Overview ::
 
-オンスクリーン・キーボードである [Onboard](https://github.com/onboard-osk/onboard) のレイアウト定義カスタム・ファイルです。
-日本語キーボード(OADG109A / JIS X 4064 に準拠)のレイアウトを再現しています。
+This is a custom layout definition file for [Onboard](https://github.com/onboard-osk/onboard), the on-screen keyboard.
+It replicates the layout of a Japanese keyboard (compliant with OADG109A/JIS X 4064).
 
-これは公式の `/usr/share/onboard/layouts/Full Keyboard*` ファイルをコピーしてカスタマイズしたものです。
-それらと差分を取ることで、どこが改造されているのか調べることができます。
+This file was created by copying the official `/usr/share/onboard/layouts/Full Keyboard*` files and customizing them.
+You can check which parts have been modified by comparing the differences between these files.
 
-```console:例:
+```console:Example:
     $ diff layouts/OADG109A_Full_Keyboard.onboard /usr/share/onboard/layouts/Full\ Keyboard.onboard
 ```
 
-日本語環境がセットアップされた Linux デスクトップ環境が必要になります。
+You will need a Linux desktop environment with a Japanese environment setup. maybe.
 
 
-## :: インストール方法 ::
+## :: Installation Instructions ::
 
-git clone コマンドでこのリポジトリを複製してください。
-`layout` ディレクトリが作られますので、それを Onboard が解釈できる XDG 準拠のディレクトリへ置くだけです。
-以下のコマンドでユーザーのホーム・ディレクトリにインストールできます:
+Please clone this repository using the `git clone` command.
+This will create the `layout` directory; simply place it in an XDG-compliant directory that Onboard can recognize.
+You can install it in your home directory using the following commands:
 
 ```console:
     $ mkdir OADG109A_Full_Keyboard && cd OADG109A_Full_Keyboard
@@ -26,27 +26,29 @@ git clone コマンドでこのリポジトリを複製してください。
     $ cp -r OADG109A_Full_Keyboard/layout  ~/.local/share/onboard/
 ```
 
-`theme` ディレクトリについてはデザインのみですので、お好みでどうぞ。
+The `theme` directory is optional. Use the design if you need it.
 
 
-## :: 使用方法 ::
+## :: How to Use ::
 
-インストールしたら Onboard が既に起動している場合は一度終了させ、起動し直します。
-その後、 Onboard の設定画面を出して *[レイアウト] > [My Layouts] > [OADG109A_Full_Keyboard]* を選んでください。
+After installation, if Onboard is already running, close it and restart it.
+Then, open the Onboard settings screen and select *[Layout] > [My Layouts] > [OADG109A_Full_Keyboard]*.
 
-CLI で試す場合は:
+To try it from the CLI:
 
 ```console:
     $ pkill onboard
     $ onboard-settings
-    -- (Set "OADG109A_Full_Keyboard" layout) --
+    -- (Set “OADG109A_Full_Keyboard” layout) --
     $ onboard &
 ```
 
+Let's do this!
 
-## :: ライセンス ::
 
-本家に倣い、以下となります。ライセンスを遵守していれば改変・再配布は自由です。
+## :: License ::
+
+Following the original project, the license is as follows. Modification and redistribution are permitted as long as the license terms are adhered to.
 
 [GPL-3+](https://www.gnu.org/licenses/gpl.txt)
 
@@ -55,69 +57,68 @@ CLI で試す場合は:
 Since: 2026-04-18 - 2026-04-23
 
 
-## :: 免責事項 ::
+## :: Disclaimer ::
 
-本設定を用いて、万が一不具合が起きた場合でも筆者は責任を負いません。
-自己責任にてご利用ください。
-
-
-## :: テスト環境 ::
-
-筆者のテスト環境は以下です。仮想環境ではなく実機。... maybe.
-neofetch コマンドの結果になります。
-
-             ...-:::::-...                 9hnder@SilverSurfer
-          .-MMMMMMMMMMMMMMM-.              -------------------
-      .-MMMM`..-:::::::-..`MMMM-.          OS: Linux Mint 22.3 x86_64
-    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.        Host: Surface Go 1
-   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-       Kernel: 6.17.0-19-generic
- `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`    Uptime: 7 days, 27 mins
- :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:    Packages: 2143 (dpkg)
-.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.   Shell: bash 5.2.21
-:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   Resolution: 2400x1600
-:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:   DE: Cinnamon 6.6.7
-:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   WM: Mutter (Muffin)
-.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.   WM Theme: Mint-Y-Dark-Red (Mint-Y)
- :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:    Theme: Mint-Y-Dark-Red [GTK2/3]
-  :MMM:MMM:`                `:MMM:MMM:     Icons: Mint-Y-Red [GTK2/3]
-   .MMM.MMMM:--------------:MMMM.MMM.      Terminal: gnome-terminal
-     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'       CPU: Intel Pentium 4415Y (4) @ 1.600GHz
-       '.-MMMM``--:::::--``MMMM-.'         GPU: Intel HD Graphics 615
-            '-MMMMMMMMMMMMM-'              Memory: 7282MiB / 7818MiB
-               ``-:::::-``
+The author assumes no responsibility for any issues that may arise from using these settings.
+Please use at your own risk.
 
 
-## :: 参考 ::
+## :: Test Environment ::
 
-制作に当たり、以下のWebページを参考にさせていただきました。感謝します。
+The author’s test environment is as follows. It is a physical machine, not a virtual environment... maybe.
+(Unless this world is a simulator...)
+This is the result of the `neofetch` command.
 
-[ぼちぼち書くブログ](https://mypace.sasapurin.com/entry/impossible-input-underscore-onboard/)
+OS: Linux Mint 22.3 x86_64
+Host: Surface Go 1
+Kernel: 6.17.0-19-generic
+Uptime: 7 days, 27 mins
+Packages: 2143 (dpkg)
+Shell: bash 5.2.21
+Resolution: 2400x1600
+DE: Cinnamon 6.6.7
+WM: Mutter (Muffin)
+WM Theme: Mint-Y-Dark-Red (Mint-Y)
+Theme: Mint-Y-Dark-Red [GTK2/3]
+Icons: Mint-Y-Red [GTK2/3]
+Terminal: gnome-terminal
+CPU: Intel Pentium 4415Y (4) @ 1.600GHz
+GPU: Intel HD Graphics 615
+Memory: 7282MiB / 7818MiB
 
-また、キートップのフォントを変更したい場合や Super キーの表記を変えたい場合は以下のページが参考になります。
+
+
+## :: References ::
+
+I referred to the following web pages while creating this. Thank you.
+
+[Bochibochi Blog](https://mypace.sasapurin.com/entry/impossible-input-underscore-onboard/)
+
+Also, if you want to change the font on the keycaps or modify the Super key label, the following page will be helpful.
 
 [kledgeb](https://kledgeb.blogspot.com/2014/06/ubuntu-onboard-17.html)
 
 
-## :: 筆者について ::
+## :: About the Author ::
 
-基本ふざけた人間ですが、たまに真面目モードで技術記事やツールを書いたりしています。以下で公開しています。
+I’m basically a damning, but every now and then I switch to “serious mode” to write technical articles or create tools. You can find them here:
 
 [GitHub](https://github.com/9hnder/)
-[Qiita ユーザーページ](https://qiita.com/9hnder/)
+[Qiita User Page](https://qiita.com/9hnder/)
 
-Linux の普及に貢献したいがために書いた記事が中心。Linux 関連記事ばかりです。
-本設定ファイルの制作談話も後日追加予定です。
-よかったらどうぞ。
+Most of my articles are written with the goal of contributing to the spread of Linux. They are all Linux-related.
+I planing to add a story about the creation of this configuration file at a later date.
+Please check them out if you’re interested.
 
 **Sorry, dear foreign friends! Only Japanese articles. DW.**
 
 
-## :: 謝辞 ::
+## :: Acknowledgments ::
 
-参考サイト、並びに Onboard の開発者たちに感謝します。
-素晴らしいソフトウェアをありがとう！
+I would like to thank the reference sites and the Onboard developers.
+Thank you for the SUPER wonderful software!
 
 
 
-# vim:set ts=4 tw=0 ff=unix ft=markdown : This is vim modeline #
+<!-- vim:set ts=4 tw=0 ff=unix ft=markdown : This is vim modeline -->
 
