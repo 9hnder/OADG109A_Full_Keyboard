@@ -1,3 +1,5 @@
+<img width="2400" height="416" alt="OADG109A_FullKeyboard_Layout" src="https://github.com/user-attachments/assets/1dbfcc45-b3c9-43d8-bd97-07da28033b94" />
+
 ## :: 概要 ::
 
 オンスクリーン・キーボードである [Onboard](https://github.com/onboard-osk/onboard) のレイアウト定義カスタム・ファイルです。
