@@ -1,5 +1,6 @@
-<img width="2400" height="416" alt="OADG109A_FullKeyboard_Layout" src="https://github.com/user-attachments/assets/1dbfcc45-b3c9-43d8-bd97-07da28033b94" />
+# Onboard custom file of Japanese keyboard layout (OADG 109A Full Keyboard)
 
+<img width="2400" height="600" alt="OADG109A_FullKeyboard_Layout" src="https://github.com/user-attachments/assets/0b848684-8c3d-4d78-b865-a2cbbc4bdbec" />
 
 ## :: Overview ::
 
@@ -102,6 +103,7 @@ Also, if you want to change the font on the keycaps or modify the Super key labe
 I’m basically a damning, but every now and then I switch to “serious mode” to write technical articles or create tools. You can find them here:
 
 [GitHub](https://github.com/9hnder/)
+
 [Qiita User Page](https://qiita.com/9hnder/)
 
 Most of my articles are written with the goal of contributing to the spread of Linux. They are all Linux-related.
@@ -113,8 +115,8 @@ Please check them out if you’re interested.
 
 ## :: Acknowledgments ::
 
-I would like to thank the reference sites and the Onboard developers.
-Thank you for the SUPER wonderful software!
+I would like to thank the reference sites and the Onboard developers.  
+Thanks for the SUPER wonderful software!
 
 
 
