@@ -2,7 +2,7 @@
 
 <img width="2400" height="600" alt="OADG109A_FullKeyboard_Layout" src="https://github.com/user-attachments/assets/0b848684-8c3d-4d78-b865-a2cbbc4bdbec" />
 
-## :: Overview ::
+## :: Description ::
 
 This is a custom layout definition file for [Onboard](https://github.com/onboard-osk/onboard), the on-screen keyboard.
 It replicates the layout of a Japanese keyboard (compliant with OADG109A/JIS X 4064).
