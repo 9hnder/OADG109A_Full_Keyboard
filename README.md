@@ -33,7 +33,7 @@ You can install it in your home directory using the following commands:
 The `theme` directory is optional. Use the design if you need it.
 
 ⚠️ WARNING ⚠️
-If you have already modified key_def.xml, please merge it manually.
+If you have already modified `key_defs.xml`, please merge it manually.
 
 
 ## :: How to Use ::
