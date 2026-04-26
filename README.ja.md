@@ -23,13 +23,15 @@ git clone コマンドでこのリポジトリを複製してください。
 
 ```console:
     $ mkdir OADG109A_Full_Keyboard && cd OADG109A_Full_Keyboard
-    $ git clone https://github.com/9hnder/OADG109A_Full_Keyboard
+    $ git clone https://github.com/9hnder/OADG109A_Full_Keyboard.git
     $ mkdir -p ~/.local/share/onboard/
     $ cp -r OADG109A_Full_Keyboard/layout  ~/.local/share/onboard/
 ```
 
 `theme` ディレクトリについてはデザインのみですので、お好みでどうぞ。
 
+⚠️ 警告 ⚠️
+もし、 key_defs.xml を既に改造してある場合は手動でマージしてください。
 
 ## :: 使用方法 ::
 
