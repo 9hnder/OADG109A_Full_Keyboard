@@ -25,12 +25,15 @@ You can install it in your home directory using the following commands:
 
 ```console:
     $ mkdir OADG109A_Full_Keyboard && cd OADG109A_Full_Keyboard
-    $ git clone https://github.com/9hnder/OADG109A_Full_Keyboard
+    $ git clone https://github.com/9hnder/OADG109A_Full_Keyboard.git
     $ mkdir -p ~/.local/share/onboard/
     $ cp -r OADG109A_Full_Keyboard/layout  ~/.local/share/onboard/
 ```
 
 The `theme` directory is optional. Use the design if you need it.
+
+⚠️ WARNING ⚠️
+If you have already modified key_def.xml, please merge it manually.
 
 
 ## :: How to Use ::
