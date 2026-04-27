@@ -22,10 +22,9 @@ git clone コマンドでこのリポジトリを複製してください。
 以下のコマンドでユーザーのホーム・ディレクトリにインストールできます:
 
 ```console:
-    $ mkdir OADG109A_Full_Keyboard && cd OADG109A_Full_Keyboard
     $ git clone https://github.com/9hnder/OADG109A_Full_Keyboard.git
     $ mkdir -p ~/.local/share/onboard/
-    $ cp -r OADG109A_Full_Keyboard/layout  ~/.local/share/onboard/
+    $ cp -r OADG109A_Full_Keyboard/layouts  ~/.local/share/onboard/
 ```
 
 `theme` ディレクトリについてはデザインのみですので、お好みでどうぞ。
@@ -44,7 +43,7 @@ CLI で試す場合は:
 ```console:
     $ pkill onboard
     $ onboard-settings
-    -- (Set "OADG109A_Full_Keyboard" layout) --
+    -- (Set "OADG109A_Full_Keyboard" layout or Use onboard -l Option) --
     $ onboard &
 ```
 
