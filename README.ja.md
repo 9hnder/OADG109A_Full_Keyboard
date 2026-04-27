@@ -28,7 +28,7 @@ git clone コマンドでこのリポジトリを複製してください。
 ```
 
 `theme` ディレクトリについてはデザインのみですので、お好みでどうぞ。
-`fonts-migmix` フォントパッケージが必要です。もしくは Nightshade.theme を適切なフォントに書き換えてください。
+`fonts-migmix` フォントパッケージが必要です。もしくは `Nightshade.theme` を適切なフォントに書き換えてください。
 フォントによってはグリフ バックスラッシュ `\` が エンサイン `¥` で表示されたりしますので、ちゃんとそれらが区別できる `MigMix 1M`, `Migu 1M`, `Migu 1C`, `Source Code Pro` などのソースコード用フォントの使用をおすすめします。
 
 ⚠️ 警告 ⚠️  
@@ -45,7 +45,7 @@ CLI で試す場合は:
 ```console:
     $ pkill onboard
     $ onboard-settings
-    -- (Set "OADG109A_Full_Keyboard" layout or Use onboard -l Option) --
+    -- (レイアウトに "OADG109A_Full_Keyboard" を設定する。または onboard -l を使ってください) --
     $ onboard &
 ```
 
@@ -58,7 +58,7 @@ CLI で試す場合は:
 
 
 © Ken Shirakawa (9hnder)
-Since: 2026-04-18 - 2026-04-23
+Since: 2026 - 2026
 
 
 ## :: 免責事項 ::
