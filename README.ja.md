@@ -2,7 +2,7 @@
 
 ## :: 概要 ::
 
-オンスクリーン・キーボードである [Onboard](https://github.com/onboard-osk/onboard) のレイアウト定義カスタム・ファイルです。
+オンスクリーン・キーボード [Onboard](https://github.com/onboard-osk/onboard) のレイアウト定義カスタム・ファイルです。
 日本語キーボード(OADG109A / JIS X 4064 に準拠)のレイアウトを再現しています。
 
 これは公式の `/usr/share/onboard/layouts/Full Keyboard*` ファイルをコピーしてカスタマイズしたものです。
@@ -28,6 +28,7 @@ git clone コマンドでこのリポジトリを複製してください。
 ```
 
 `theme` ディレクトリについてはデザインのみですので、お好みでどうぞ。
+MigMix フォントパッケージが必要です。もしくは Nightshade.theme を適切なフォントに書き換えてください。
 
 ⚠️ 警告 ⚠️  
 もし、 `key_defs.xml` を既に改造してある場合は手動でマージしてください。
