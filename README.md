@@ -31,7 +31,7 @@ You can install it in your home directory using the following commands:
 
 The `theme` directory is optional. Use the design if you need it.
 Requires `fonts-migmix` package. Or please edit `Nightshade.theme` file to an appropriate font.
-Depending on the font, the glyph backslash `\` may be displayed as the ensign `\`, so we recommend using a source code fonts such as `MigMix 1M`, `Migu 1M`, `Migu 1C`, `Source Code Pro` that can clearly distinguish between them.
+Depending on the font, the glyph backslash `\` may be displayed as the yen sign `\`, so we recommend using a source code fonts such as `MigMix 1M`, `Migu 1M`, `Migu 1C`, `Source Code Pro` that can clearly distinguish between them.
 
 ⚠️ WARNING ⚠️  
 If you have already modified `key_defs.xml`, please merge it manually.
