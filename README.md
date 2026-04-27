@@ -24,10 +24,9 @@ This will create the `layout` directory; simply place it in an XDG-compliant dir
 You can install it in your home directory using the following commands:
 
 ```console:
-    $ mkdir OADG109A_Full_Keyboard && cd OADG109A_Full_Keyboard
     $ git clone https://github.com/9hnder/OADG109A_Full_Keyboard.git
     $ mkdir -p ~/.local/share/onboard/
-    $ cp -r OADG109A_Full_Keyboard/layout  ~/.local/share/onboard/
+    $ cp -r OADG109A_Full_Keyboard/layouts  ~/.local/share/onboard/
 ```
 
 The `theme` directory is optional. Use the design if you need it.
@@ -46,7 +45,7 @@ To try it from the CLI:
 ```console:
     $ pkill onboard
     $ onboard-settings
-    -- (Set “OADG109A_Full_Keyboard” layout) --
+    -- (Set "OADG109A_Full_Keyboard" layout or Use onboard -l option) --
     $ onboard &
 ```
 
